@@ -11,8 +11,6 @@ public class App {
 
 	public static void main(String[] args) {
 
-		port(3000);
-
 		post("/webhook/cdr", (req, res) -> {
 
 			System.out.println("You got CDR from TeleCMI Platform");
@@ -21,6 +19,8 @@ public class App {
 			res.status(204);
 			return "";
 		});
+
+		port(5000);
 
 	}
 }
