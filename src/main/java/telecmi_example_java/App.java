@@ -11,6 +11,8 @@ public class App {
 
 	public static void main(String[] args) {
 
+		port(5000);
+
 		post("/webhook/cdr", (req, res) -> {
 
 			System.out.println("You got CDR from TeleCMI Platform");
@@ -20,7 +22,7 @@ public class App {
 			return "";
 		});
 
-		port(5000);
+		
 
 	}
 }
