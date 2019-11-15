@@ -1,6 +1,6 @@
 # TeleCMI Webhook Java
 
-TeleCMI webhooks implementation in java. Use our simple python web server to test your webhooks and live events locally for development purpose.
+TeleCMI webhooks implementation in java. Use our simple java web server to test your webhooks and live events locally for development purpose.
 
 ## Install
 
@@ -8,7 +8,7 @@ Follow the below installation instructions
 
 ### Prerequisites
 
-Prerequisites for python web server.
+Prerequisites for java web server.
 
 - <a href="https://git-scm.com/" target="_blank">git</a> (>= 2.20.1 required)
 - <a href="https://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html" target="_blank">Java JDK</a> (>= 8 required)
