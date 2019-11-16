@@ -20,28 +20,11 @@ Prerequisites for java web server.
 Use command __git clone__ to clone the java webserver from our <a href="https://github.com/telecmi/telecmi_example_java" target="_blank">TeleCMI github repository</a>.
 
 ```bash
-$ git clone https://github.com/telecmi/telecmi_example_java.git
-$ cd telecmi_example_java
+git clone https://github.com/telecmi/telecmi_example_java.git
 ```
-
-Add this repository to your system’s Software Sources.
-
+Change the directory to your project directory
 ```bash
-$ sudo add-apt-repository ppa:openjdk-r/ppa
-```
-
-```bash
-$ sudo apt-get update
-```
-Install OpenJDK 8
-
-```bash
-$ sudo apt-get install openjdk-8-jdk
-```
-Install Gradle
-
-```bash
-$ sudo apt-get install gradle
+cd telecmi_example_java
 ```
 
 ## Run
@@ -76,7 +59,7 @@ Forwarding                    https://c654b286.ngrok.io -> http://localhost:5000
 Connections                   ttl     opn     rt1     rt5     p50     p90       
                               0       0       0.00    0.00    0.00    0.00  
 ```
-Now you can get your dynamic URL from the above output. To configure webhooks and live events, paste your dynamic URL with correct path in webhooks section.
+Now you can get your dynamic URL from the above output. To configure webhooks and live events, paste your dynamic URL with correct path in <a href="https://doc.telecmi.com/chub/docs/incoming-webhooks#where-to-place-your-web-server-url-" target="_blank">webhooks section</a>.
 
 #### Sample URL with path
 ```
