@@ -32,14 +32,14 @@ cd telecmi_example_java
 Run your java server using the below command
 
 ```bash
-$ gradle run
+gradle run
 ```
 Now you can able to test our webhooks and live events, from your local server. To expose your local web server to the internet use ngrok. 
 
 You can create a secure HTTP tunnel by providing the port number on which your web server is running. For example, your web server is running on port number 5000. you can launch your HTTP tunnel with the following command line.
 
 ```bash
-$ ./ngrok http 5000
+./ngrok http 5000
 ```
 
 After exposing your local webserver to the internet using ngrok you will get the following output.
